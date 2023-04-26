@@ -1,0 +1,205 @@
+.social--instagram {
+  color: #3f729b;
+}
+
+.social--facebook {
+  color: #3b5998;
+}
+
+.social--whatsapp {
+  color: #00E676;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url(../imgs/marmol.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  max-height: 100px;
+  max-width: 100%;
+  width: 100px;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.pulse:hover {
+  display: inline-block;
+  animation: pulse 2s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .maps {
+    max-width: 450px;
+  }
+  nav div {
+    width: 100% !important;
+  }
+  nav div ul * .text {
+    font-size: larger !important;
+  }
+  nav .p-1 {
+    padding: 1rem !important;
+    padding-left: 2rem !important;
+  }
+  main {
+    max-width: 100%;
+  }
+  main div .col-sm-4 {
+    padding: 0 !important;
+  }
+  main .btn {
+    margin-left: 0;
+  }
+  main div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  main .rounded {
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 1200px) {
+  .no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 1rem;
+  }
+  main h1 {
+    font-size: 1.5rem;
+  }
+  main * img {
+    width: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+  }
+  nav div ul * .text {
+    font-size: larger !important;
+  }
+  nav .p-1 {
+    padding: 1rem !important;
+    padding-left: 2rem !important;
+  }
+}
+nav div ul li {
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 1rem;
+  text-decoration: none;
+  width: 100%;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.divider {
+  min-height: none;
+  object-fit: contain;
+}
+
+.btn {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 500;
+  background-color: rgba(255, 204, 93, 0.6509803922);
+  border-radius: 24px;
+  border: 0px solid #EDF4F2;
+  box-shadow: 0px 5px 0px 0px rgba(42, 42, 42, 0.34);
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 2vh;
+  min-width: auto;
+  padding: 15px 30px;
+}
+.btn:hover {
+  background-image: -moz-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: -ms-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: -o-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: -webkit-linear-gradient(top, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background-image: linear-gradient(to bottom, rgba(255, 204, 93, 0.6509803922), rgba(255, 204, 93, 0.6509803922));
+  background: black;
+  color: rgba(255, 204, 93, 0.6509803922);
+  border-color: #f4f4f4;
+  border-style: solid;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.block-bg-color {
+  background-color: rgba(255, 204, 93, 0.6509803922);
+  border-radius: 12px;
+}
+
+.block--variation {
+  border-radius: 12px;
+  flex-direction: row-reverse;
+}
+
+.right-side {
+  justify-content: flex-end;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: #ffcc5da6;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input:required:invalid, textarea:required:invalid {
+  border-color: red;
+}
+
+input:required:valid, textarea:required:valid {
+  border-color: green;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    @include background-marmol
+}
+
+.logo 
+{
+    @include logo-formatting
+}
+
+main 
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.pulse:hover 
+{
+	display: inline-block;
+	animation: pulse 2s infinite linear;
+}
+
+@keyframes pulse 
+{
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@media (max-width: 768px) { 
+    .maps 
+    {
+        max-width: 450px;
+    }
+
+    nav 
+    {
+        
+        div {
+        width: 100%!important;
+            ul {
+                * {
+                    .text {
+                        font-size: larger!important;
+                    }
+                }
+            }
+        }
+        .p-1 
+        {
+            padding: 1rem!important;
+            padding-left: 2rem!important;
+        }
+        
+    }
+
+    main 
+    {
+        max-width: 100%;
+
+        div 
+        {
+            .col-sm-4 
+            {
+                padding: 0!important;
+            }
+            
+        }
+
+        .btn 
+        {
+            margin-left: 0;
+        }
+
+        div {
+            padding-left: 0!important;
+            padding-right: 0!important;
+        }
+        
+        .rounded 
+        {
+            border-radius: 0!important;
+        }
+    }
+
+ }
+
+ @media (max-width: 1200px) {
+    .no-padding {
+        padding-left: 0!important;
+        padding-right: 0!important;
+        margin-top: 1rem;
+    }
+    
+    main {
+        h1 {
+            font-size: 1.5rem;
+        }
+        * {
+            img {
+                width: 100%;
+                aspect-ratio: 5/3;
+                object-fit: cover;
+            }
+        }
+        
+    }
+    nav 
+    {
+        
+        div {
+            
+            ul {
+                * {
+                    .text {
+                        font-size: larger!important;
+                    }
+                }
+            }
+        }
+        .p-1 
+        {
+            padding: 1rem!important;
+            padding-left: 2rem!important;
+        }
+        
+    }
+ }

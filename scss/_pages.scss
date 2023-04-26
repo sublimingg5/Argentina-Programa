@@ -1,0 +1,63 @@
+h1 
+{
+    @include h1-font-style
+    
+}
+
+h2 
+{
+    @include h2-font-style
+    
+}
+
+.divider 
+{
+    min-height: none;
+    object-fit: contain;
+}
+
+.btn 
+{
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+    background-color: $primary-color;
+    border-radius: 24px;
+    border: 0px solid #EDF4F2;
+    box-shadow: 0px 5px 0px 0px rgba(42,42,42,.34);  
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 2vh;
+    min-width: auto;
+    padding: 15px 30px;
+
+    &:hover 
+    {
+        background-image: -moz-linear-gradient(top, $primary-color, $primary-color);
+        background-image: -ms-linear-gradient(top, $primary-color, $primary-color);
+        background-image: -o-linear-gradient(top, $primary-color, $primary-color);
+        background-image: -webkit-linear-gradient(top, $primary-color, $primary-color);
+        background-image: linear-gradient(to bottom, $primary-color, $primary-color);
+        background: black;
+        color: $primary-color;
+        border-color: #f4f4f4;
+        border-style: solid;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+.block-bg-color {
+    background-color: $primary-color;
+    border-radius: 12px;
+}
+
+.block--variation {
+    border-radius: 12px;
+    flex-direction: row-reverse;
+}
+
+.right-side 
+{
+    justify-content: flex-end;
+}

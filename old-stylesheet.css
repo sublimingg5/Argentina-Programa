@@ -1,0 +1,135 @@
+body {
+    background-attachment: fixed;
+    background-image: url(imgs/marmol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.right-side {
+    justify-content: flex-end;
+}
+
+.divider {
+    min-height: none;
+    object-fit: contain;
+}
+
+
+.logo {
+    height: 100px;
+    max-width: 100%;
+    width: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.nav-ul-list a{
+    color:  black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-ul-list a:visited{
+    color:  black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-ul-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul li {
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 1rem;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.block-bg-color {
+    background-color: #FEC868;
+    border-radius: 12px;
+}
+
+.block--variation {
+    border-radius: 12px;
+    flex-direction: row-reverse;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500;
+    background-color: #FEC868;
+    border-radius: 24px;
+    border: 0px solid #EDF4F2;
+    box-shadow: 0px 5px 0px 0px rgba(42,42,42,.34);  
+    color: FEC868;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 2vh;
+    min-width: auto;
+    padding: 15px 30px;
+  }
+  
+  .btn:hover {
+    background-image: -moz-linear-gradient(top, #FEC868, #FEC868);
+    background-image: -ms-linear-gradient(top, #FEC868, #FEC868);
+    background-image: -o-linear-gradient(top, #FEC868, #FEC868);
+    background-image: -webkit-linear-gradient(top, #FEC868, #FEC868);
+    background-image: linear-gradient(to bottom, #FEC868, #FEC868);
+    background: black;
+    color: #FEC868;
+    border-color: #f4f4f4;
+    border-style: solid;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .pulse:hover {
+	display: inline-block;
+	animation: pulse 2s infinite linear;
+}
+
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@media (max-width: 700px) { 
+    .maps {
+        max-width: 450px;
+    }
+ }

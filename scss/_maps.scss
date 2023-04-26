@@ -1,0 +1,11 @@
+$redes: (
+    instagram: #3f729b,
+    facebook: #3b5998,
+    whatsapp: #00E676
+);
+
+@each $red, $color in $redes {
+    .social--#{$red} {
+        color: $color;
+    }
+}

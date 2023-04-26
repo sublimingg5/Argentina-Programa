@@ -1,0 +1,22 @@
+$primary-color: #ffcc5da6;
+
+@mixin background-marmol {
+    background-attachment: fixed;
+    background-image: url(../imgs/marmol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin logo-formatting {
+    max-height: 100px;
+    max-width: 100%;
+    width: 100px;
+}
+
+@mixin h1-font-style {
+    font-weight: 600;
+}
+
+@mixin h2-font-style {
+    font-weight: 500;
+}

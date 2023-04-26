@@ -1,0 +1,36 @@
+{
+  "name": "sublimingg5.github.io",
+  "version": "1.0.0",
+  "description": "Web de Reposteria Andrea Ciceri, utiliza bootstrap, sass; depende de nodemon y node-sass",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "keywords": [
+    "panaderia",
+    "reposteria",
+    "villa dominico",
+    "reposteria villa dominico",
+    "panaderia villa dominico",
+    "servicio de lunch",
+    "lunch villa dominico",
+    "lunch wilde",
+    "reposteria wilde",
+    "servicio de lunch con envio",
+    "reposteria sarandi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sublimingg5/sublimingg5.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sublimingg5/sublimingg5.github.io/issues"
+  },
+  "homepage": "https://github.com/sublimingg5/sublimingg5.github.io#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.62.0"
+  }
+}
